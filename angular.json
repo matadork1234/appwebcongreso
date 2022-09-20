@@ -28,9 +28,15 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "node_modules/animate.css/animate.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/wowjs/dist/wow.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -103,5 +109,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c99e232f-5b90-4324-8613-340ea2b89dc9"
   }
 }
