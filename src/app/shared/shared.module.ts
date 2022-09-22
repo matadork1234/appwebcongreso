@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SliderComponent } from './components/slider/slider.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -13,6 +14,7 @@ import { SliderComponent } from './components/slider/slider.component';
     SliderComponent
   ],
   imports: [
+    RouterModule,
     CommonModule
   ],
   exports: [
